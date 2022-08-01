@@ -1,0 +1,207 @@
+0<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-card class="logobg">
+      <img id="logo" src="assets/image/logo-maharlika-removebg-preview.png">
+      <p>LA MAHARLIKA</p>
+    </ion-card>
+  </ion-header>
+
+  <h2>What's New</h2>
+  <ion-slides [options]="option" class="ion-margin-top">
+
+    <ion-slide>
+      <ion-card id="img" button>
+        <img id="size" src="assets/image/1.jfif">
+      </ion-card> 
+    </ion-slide>
+  
+      <ion-slide>
+        <ion-card id="img" button>
+          <img id="size" src="assets/image/2.jpg">
+        </ion-card> 
+      </ion-slide>
+  
+        <ion-slide>
+          <ion-card id="img" button>
+            <img id="size" src="assets/image/3.jpg">
+          </ion-card> 
+        </ion-slide>
+  
+          <ion-slide>
+            <ion-card id="img" button>
+              <img id="size" src="assets/image/4.jpg">
+            </ion-card> 
+          </ion-slide>
+    
+            <ion-slide>
+              <ion-card id="img" button>
+                <img id="size" src="assets/image/5.jfif">
+              </ion-card> 
+            </ion-slide>
+      
+  </ion-slides>
+
+
+<div id="container">
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6">
+        <ion-card full no-margin id="card-1" (click)="clickItem1()">
+          <img id="img" src="assets/image/Banana.png">
+          <ion-card-content>
+            Banana
+            <br>
+            <label id="price">Php 12.00</label>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card full no-margin id="card-2" (click)="clickItem2()">
+          <img  src="assets/image/corn.png">
+          <ion-card-content>
+            Corn
+            <br>
+            <label id="price">Php 15.00</label>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card full no-margin id="card-3" (click)="clickItem3()">
+          <img  src="assets/image/garlic.png">
+          <ion-card-content>
+            Garlic
+            <br>
+            <label id="price">Php 15.00</label>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card full no-margin id="card-7" (click)="clickItem7()">
+          <img  src="assets/image/Sugarcane.png">
+          <ion-card-content>
+            Sugarcane
+            <br>
+            <label id="price">Php 14.00</label>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card full no-margin id="card-9" (click)="clickItem9()">
+          <img  src="assets/image/peanuts.png">
+          <ion-card-content>
+            Peanut
+            <br> 
+            <label id="price">Php 11.00</label>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card full no-margin id="card-11" (click)="clickItem11()">
+          <img  src="assets/image/red onion.png">
+          <ion-card-content>
+            Red Onion
+            <br>
+            <label id="price">Php 6.00</label>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card full no-margin id="card-13" (click)="clickItem13()">
+          <img  src="assets/image/radish.png">
+          <ion-card-content>
+            Radish
+            <br>
+            <label id="price">Php 15.00</label>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card full no-margin id="card-15" (click)="clickItem15()">
+          <img  src="assets/image/pineapple.png">
+          <ion-card-content>
+            Pineapple
+            <br>
+            <label id="price">Php 25.00</label>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <ion-col size="6">
+          <ion-card full no-margin id="card-4" (click)="clickItem4()">
+            <img  src="assets/image/rice.png">
+            <ion-card-content>
+              Rice
+              <br>
+              <label id="price">Php 15.00</label>
+            </ion-card-content>
+          </ion-card>
+
+          <ion-card full no-margin id="card-5" (click)="clickItem5()">
+            <img  src="assets/image/string beans.png">
+            <ion-card-content>
+              String Beans
+              <br>
+              <label id="price">Php 15.00</label>
+            </ion-card-content>
+          </ion-card>
+
+          <ion-card full no-margin id="card-6" (click)="clickItem6()">
+            <img  src="assets/image/sesame.png">
+            <ion-card-content>
+              Sesame
+              <br>
+              <label id="price">Php 15.00</label>
+            </ion-card-content>
+          </ion-card>
+
+          <ion-card full no-margin id="card-8" (click)="clickItem8()">
+            <img  src="assets/image/white onion.png">
+            <ion-card-content>
+              White Onion
+              <br>
+              <label id="price">Php 20.00</label>
+            </ion-card-content>
+          </ion-card>
+
+          <ion-card full no-margin id="card-10" (click)="clickItem10()">
+            <img  src="assets/image/cassava.png">
+            <ion-card-content>
+              Cassava
+              <br>
+              <label id="price">Php 0.00</label>
+            </ion-card-content>
+          </ion-card>
+
+          <ion-card full no-margin id="card-12" (click)="clickItem12()">
+            <img  src="assets/image/ginger.png">
+            <ion-card-content>
+              Ginger
+              <br>
+              <label id="price">Php 0.00</label>
+            </ion-card-content>
+          </ion-card>
+
+          <ion-card full no-margin id="card-14" (click)="clickItem14()">
+            <img  src="assets/image/cabbage.png">
+            <ion-card-content>
+              Cabbage
+              <br>
+              <label id="price">Php 0.00</label>
+            </ion-card-content>
+          </ion-card>
+
+          <ion-card full no-margin id="card-16" (click)="clickItem16()">
+            <img  src="assets/image/tomato.png">
+            <ion-card-content>
+              Tomato
+              <br>
+              <label id="price">Php 100.00</label>
+            </ion-card-content>
+          </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</div>
+</ion-content>
+
